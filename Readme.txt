@@ -1,50 +1,19 @@
-# Video Game Sales Analysis Project
+📊 Exciting Project Analysis – Video Game Sales Dataset 🎮 
 
-This project involves analyzing a dataset of video game sales with over 16,000 records, including information on games sold across multiple regions from 1980 to 2020. The analysis focuses on understanding sales patterns, regional preferences, and platform success.
+I'm excited to share my latest data analysis project, developed as part of my journey through the Information Technology Institute (ITI) scholarship. This project, focused on over 16,000 video games sold worldwide, spans from 1980 to 2020, offering an in-depth look at the gaming industry’s performance across platforms, genres, and regions.
 
-## Dataset Overview
+Key Findings:
+🔹 Global Trends:
 
-- **Source**: vgchartz.com (scraped data)
-- **Shape**: 16,698 rows x 11 columns
-- **Columns**:
-  - **Rank**: Game rank by global sales
-  - **Name**: Game title
-  - **Platform**: Gaming platform
-  - **Year**: Release year of the game
-  - **Genre**: Game genre
-  - **Publisher**: Game publisher
-  - **NA_Sales**: Sales in North America (millions)
-  - **EU_Sales**: Sales in Europe (millions)
-  - **JP_Sales**: Sales in Japan (millions)
-  - **Other_Sales**: Sales in other regions (millions)
-  - **Global_Sales**: Total global sales (millions)
+Action, Sports, and Shooter games dominate worldwide sales, showing a clear preference for genres with broad, enduring appeal.
+PS2 stands as the best-selling platform of all time, showcasing the power of a strong game library and long market presence.
+🔹 Regional Insights:
 
-## Cleaning & Preprocessing
+North America favors shooters and action games, while Europe aligns closely with global trends but shows a slight preference for racing games.
+Japan stands out with a preference for Role-Playing Games and handheld devices like the Nintendo 3DS.
+🔹 Publisher Influence:
 
-The following data cleaning steps were performed:
-- Dropped rows with null values in "Year" and "Publisher" columns.
-- Removed games with release years from 2017 to 2020.
-- Handled missing values (approximately 2% of data) by removing those rows.
-
-## Key Findings
-
-- **Popular Genres**: Action, Sports, and Shooter games dominate global sales.
-- **Regional Preferences**: North America favors Xbox, while Europe and Japan prefer PlayStation. Handheld devices are more popular in Japan.
-- **Platform Success**: PS2 stands out as a key platform due to its extensive game library and long market presence.
-
-## Requirements
-
-- Python 3.x
-- pandas
-- numpy
-- matplotlib
-- seaborn
-
-## Usage
-
-Clone this repository and install the required dependencies:
-
-```bash
-git clone https://github.com/yourusername/videogame-sales-analysis.git
-cd videogame-sales-analysis
-pip install -r requirements.txt
+Industry giants such as Nintendo and Electronic Arts dominate key genres like platformers and sports, while Activision and Take-Two Interactive lead in high-revenue genres such as shooters and action.
+There’s an emerging opportunity for publishers to tap into less competitive genres like Adventure and Strategy, where innovation could create new market footholds.
+What I Learned:
+This project sharpened my ability to clean, analyze, and visualize complex datasets, while also deepening my understanding of how data-driven insights can drive strategic decisions in industries like gaming.
