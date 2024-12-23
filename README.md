@@ -40,5 +40,3 @@ The dataset contains:
 - Correlation between sales in different regions.
 - Publisher performance by genre and global sales.
 
-## Acknowledgment:
-This project was developed based on the skills learned during the **training scholarship provided by the Information Technology Institute (ITI)** under the Ministry of Communications and Information Technology in Egypt. Special thanks to ITI for their invaluable training and support.
